@@ -1,0 +1,13 @@
+#Pull data from brologs
+
+#Loop through all elasticsearch data (or brologs) in range
+#    Pull log from data and put into dictionary (traffic_summary) (IPs, Port, user agent strings)
+#    Have I seen this before?  IP, Port,
+#    if yes then increase count
+#    if no create another entry for traffic type
+ 
+#Sort dictionary by Src IP
+ 
+#Loop through dictionary (traffic_summary)
+#    create snort pass policy
+#    add to list of snort policies
